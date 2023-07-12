@@ -19,10 +19,10 @@ const data = {
   },
 };
 
-const property = Object.entries(data)
-const property2 = Object.keys(data.state1)
-console.log(property)
-console.log(property2)
+const property = Object.entries(data);
+const property2 = Object.keys(data.state1);
+console.log(property);
+console.log(property2);
 
 const stateSection = document.querySelector("#state-section");
 const citySection = document.querySelector("#city-section");
@@ -34,7 +34,7 @@ function selectState() {
   let stateSection = document.getElementById("state-section");
 
   for (var i = 1; i < stateSection.rows.length; i++) {
-    console.log(i)
+    console.log(i);
     stateSection.rows[i].onclick = function () {
       if (typeof index !== "undefined") {
         stateSection.rows[index].classList.toggle("selected");
@@ -99,6 +99,6 @@ stateRows.forEach((row, index) => {
 
     selectedState = state;
     InsertCities(state);
-    pincodeSection.classList.add("hidden");
+    // pincodeSection.classList.add("hidden");
   });
 });
