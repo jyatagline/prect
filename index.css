@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    /* margin-right: 15px; */
+    /* border-radius: 10px; */
+}
+td,th{
+    border: 1px solid;
+    padding: 20px;
+    /* border-radius: 10px; */
+    cursor: pointer;
+}
+th{
+    background-color: goldenrod;
+}
+tbody{
+    text-align: center;
+    
+}
+.hidden{
+    display: none;
+}
+.selected{
+    background-color: skyblue;
+    /* cursor: pointer; */
+}
