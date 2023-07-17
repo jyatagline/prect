@@ -99,6 +99,6 @@ stateRows.forEach((row, index) => {
 
     selectedState = state;
     InsertCities(state);
-    // pincodeSection.classList.add("hidden");
+    pincodeSection.classList.add("hidden");
   });
 });
